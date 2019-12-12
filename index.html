@@ -6,22 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WAKWAW</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="nav">
+    <nav class="nav animatedParent" data-sequence="200">
         <div class="container">
             <div class="nav-logo">
-                <img src="assets/img/LogoAing.png" />
+                <img src="assets/img/LogoAing.png" class="animated fadeInDownShort" data-id="1" />
             </div>
 
             <div class="nav-menu">
                 <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>Resume</li></a>
-                    <a href="#"><li>Projects</li></a>
-                    <a href="#"><li>Contact</li></a>
+                    <a href="#" class="animated fadeInDownShort" data-id="2"><li>Home</li></a>
+                    <a href="#" class="animated fadeInDownShort" data-id="3"><li>Resume</li></a>
+                    <a href="#" class="animated fadeInDownShort" data-id="4"><li>Projects</li></a>
+                    <a href="#" class="animated fadeInDownShort" data-id="5"><li>Contact</li></a>
                 </ul>
             </div>
 
@@ -33,18 +35,20 @@
         </div>
     </nav>
 
-    <section class="section">
+    <section class="top-section">
         <div class="container">
-            <div class="row">
-                <div class="col-12" style="height: 80vh;">
-                    <div class="col-md-12 col-lg-8 float-right" style="height: 100%;">
-                        <div style="position: absolute; top: 50%; transform: translateY(-50%);">
-                            <h1>Halo,</h1>
-                            <h2>saya Kevin Christianto</h2>
-                        </div>
+            <div class="row align-items-lg-center align-items-md-end animatedParent" data-sequence="350" style="height: 100vh;">
+                <div class="col-md-12 col-lg-3 ml-auto d-flex align-items-end justify-content-center">
+                    <div class="d-flex justify-content-center">
+                        <img class="animated fadeInRightShort navbar-logo" data-id="1" src="assets/img/download.png">
                     </div>
-                    <div class="col-md-12 col-lg-4" style="height: 100%;">
-                        <img class="" src="assets/img/download.png" width="280px" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" />
+                </div>
+                <div class="col-md-12 col-lg-7 mr-auto mb-lg-0 mb-md-auto">
+                    <div class="d-flex justify-content-md-center justify-content-lg-start">
+                        <div class="col">
+                            <h5 class="animated fadeInLeftShort" data-id="2">Hai, nama saya</h5>
+                            <h1 class="animated fadeInLeftShort" data-id="3" style="margin-top: -12px;">Kevin Christianto</h1>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,6 +66,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/css3-animate-it.js"></script>
 
     <script>
         // $(window).scroll(function() {
