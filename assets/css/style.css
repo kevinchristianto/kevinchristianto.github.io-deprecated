@@ -88,8 +88,31 @@ h1, h2, h3, h4, h5, h6, h7 {
     /* padding-top: 80px; */
     background: linear-gradient(90deg, #c9d6ff, #e2e2e2);
 }
-.top-section .navbar-logo {
-    width: 17vw;
+.top-section .profile-button {
+    border-radius: 50%;
+    width: 25%;
+    margin: 0 10px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+.top-section .profile-button:hover a {
+    color: #666;
+}
+.top-section .profile-button:nth-child(1) {
+    margin-left: 0;
+}
+.top-section .profile-button a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 10pt;
+    width: 100%;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -115,9 +138,5 @@ h1, h2, h3, h4, h5, h6, h7 {
     }
     .nav .nav-trigger {
         display: block;
-    }
-
-    .top-section .navbar-logo {
-        width: 50vw;
     }
 }
