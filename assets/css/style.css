@@ -1,6 +1,7 @@
 body {
     background-color: whitesmoke;
     font-family: 'Noticia Text';
+    color: #666;
 }
 
 h1, h2, h3, h4, h5, h6, h7 {
@@ -113,6 +114,37 @@ h1, h2, h3, h4, h5, h6, h7 {
     width: 100%;
     text-decoration: none;
     transition: all .2s ease-in-out;
+}
+
+#resume .resume-section-title {
+    border-radius: 50%;
+    width: 100%;
+    background-color: #83a4d4;
+    display: table;
+}
+#resume .resume-section-title p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 14pt;
+}
+#resume i.material-icons {
+    color: #83a4d4;
+}
+
+#projects .project-section-title {
+    border-radius: 50%;
+    width: 100%;
+    background-color: #83a4d4;
+    display: table;
+}
+#projects .project-section-title p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 14pt;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,0 +1,48 @@
+                        <h6 class="">
+                            CV. Master Website Karawang<br>
+                            2016
+                        </h6>
+                        <p class="">
+                            - Mengerjakan Sistem Informasi Spa
+                        </p>
+                        <h6 class="">
+                            CV. Fauzan Cipta Solusi<br>
+                            2016
+                        </h6>
+                        <p class="">
+                            - Mengerjakan Sistem Informasi Kepegawaian Dinas Kesehatan Kab. Karawang
+                        </p>
+                        <hr>
+                        <h6 class="">
+                            SMK Negeri 1 Karawang<br>
+                            2016 & 2017
+                        </h6>
+                        <p class="">
+                            - Mengerjakan Web Profile Sekolah<br>
+                            - Mengerjakan E-Vote Pemilihan Ketua OSIS
+                        </p>
+                        <hr>
+                        <h6 class="">
+                            SMP Negeri 2 Karawang<br>
+                            2016
+                        </h6>
+                        <p class="">
+                            - Mengerjakan Web Profile Sekolah
+                        </p>
+                        <hr>
+                        <h6 class="">
+                            PT. Numazu Trans Teknologi<br>
+                            2017 & 2018
+                        </h6>
+                        <p class="">
+                            - Mengerjakan E-Learning BSN (Badan Standardisasi Nasional)<br>
+                            - Mengerjakan Sistem BMJSGCR (PT. Bukit Muria Jaya)
+                        </p>
+                        <hr>
+                        <h6 class="">
+                            PT. Pupuk Kujang Cikampek<br>
+                            2019
+                        </h6>
+                        <p class="">
+                            - Mengerjakan Mobile Apps Permintaan Order Kerja
+                        </p>
